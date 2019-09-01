@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: transparent;
+    color: white;
+    transition: 0.4s;
+    border: none;
+}
+.navbar-default .navbar-brand {
+    padding: 50px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    transition: 0.4s;
+    
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #ff4555;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #f2b956;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a{
+    color: #f2b956;
+    background-color: transparent;
+}
+header{
+    width: 100%;
+    background-image: url(../images/pic1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header-content{
+    padding-top: 13%;
+    padding-bottom: 20%;
+}
+.header-content-inner{
+    color: white;
+    text-align: center;
+}
+.header-content-inner>h2{
+    margin-top: -5%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 35%;
+    border-color: #ebd2af;
+    border-style: solid;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    font-weight:400;
+    color: #ebd2af;
+}
+.header-content-inner>h1{
+    padding-top: 10%;
+    color: #ff4555;   
+    font-size: 5em;
+    font-weight: 800;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.header-content-inner>.btn{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2;
+    font-weight:bolder;
+    margin-top: 10%; 
+    color: #f2b956;
+    padding: 15px 30px;
+    background-color: #341222;
+    border-width: none;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.header-content-inner>.btn:hover{
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.6);
+    color: white;
+}
+.col-md-12>h2{
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 4em;
+}
+#about>.container{
+    background-color:rgba(34, 11, 37, 0.94);
+    color: #695a56;
+    width: 100%;
+    margin: 0;
+    padding:  5% 20%;
+}
+#about{
+    background-image: url(../images/coffee_about.jpg);
+    width: 100%;
+    background-size: cover;
+  
+}
+.col-md-12>h1{
+    margin-right:35%;
+    margin-left: 35%;
+    border-color:#f2b956;
+    border-style: solid;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    margin-bottom: 5%;
+    color: #f2b956;
+    text-align: center;
+}
+.col-md-12>h2{  
+    color: white;
+    text-align: center;
+}
+#specials{
+    color: white;
+    width: 100%;
+    background-size: cover;
+    background-image:url(../images/cheezeburg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#specials>.container{
+    background-color:rgba(96, 56, 57, 0.58);
+    width: 100%;
+    margin: 0;
+    padding:  5% 20%;
+}
+
+
+#special-box{
+    margin-top:2%;
+}
+.col-md-12>hr{
+    border-width: 3px;
+    border-color: #f2b956;
+    margin: 3% 48%;
+}
+.col-md-4>.about-box>h1{
+    margin-top: 40px;
+    font-size: 6em;
+    border-radius:10px;
+    color:#f2b956;
+    border-color: #f2b956;
+    font-family: 'Roboto',sans-serif;
+    padding:10%;
+    border-style: solid;
+    border-width: 6px;
+}
+
+.col-md-12>p,h3{
+    text-align: center;
+}
+.col-md-12>h3{
+    margin-top: 6%;
+    margin-bottom: 4%;
+    font-size: 36px;
+}
+#services{
+    background-image: url(../images/services.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#services>.container{
+    background-color: rgba(31, 8, 34, 0.85);
+    width: 100%;
+    margin: 0;
+    padding:  5% 20%;
+}
+#services>.container>.row>.col-md-12>p{
+    color: #71579a;
+}
+#services>.container>.row>.col-md-12>h2{
+    color: #65439a
+}
+#team>.container>.row>.col-md-12>h1{
+    letter-spacing: 5;
+    font-weight: 600;
+    font-size: 5em;
+    border: none;
+    margin-top: 8%;
+}
+#team>.container>.row>.col-md-12>p{
+    margin-left:10%;
+    margin-right:10%;
+}
+#team>.container>.row>.col-md-2{
+    margin-top: 3%;
+    text-align: center;
+}
+#team>.container>.row>.col-md-2>h1{
+    font-size: 5em;
+    font-weight: 800;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#teamrow2{
+    margin-bottom: 6%;
+}
+#team{
+    color: #a5a5a5;
+    background-image: url(../images/team4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#team>.container{
+    text-align: center;
+    background-color: rgba(31, 8, 34, 0.2);
+    width: 100%;
+    margin: 0;
+    padding:  5% 10%;
+}
+
+#contact{
+    background-color: #211312;
+}
+#contact>.container>.row>.col-md-12>h2{
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #a98144;
+    font-size: 4em;
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
